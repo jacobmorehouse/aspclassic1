@@ -1,0 +1,30 @@
+﻿li {
+    display: inline;
+    margin: 5px 10px 5px 10px;
+}
+
+header {
+    height: 100px;
+    
+}
+
+
+.rateListing {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.buttons {
+    /*margin: 0 auto;*/
+    
+}
+
+.center-text {
+    text-align: center;
+}
+
+.buttonMe {
+    background-color: #0094ff;
+    border-radius: 5px;
+    padding: 5px; 5px; 5px; 5px;
+}
