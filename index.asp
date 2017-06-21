@@ -20,17 +20,34 @@
         <div class="rateListing">
             <div>
                 <ul class="center-text">
-                    <li class="buttonMe">Full List</li>
-                    <li class="buttonMe">Hi-Low</li>
-                    <li class="buttonMe">Search</li>
+                    <li><button type="button" class="btn btn-default" id="listbutton">List</button></li>
+                    <li><button type="button" class="btn btn-default" id="highlowbutton">High/Low</button></li>
+                    <li><button type="button" class="btn btn-default" id="searchsutton">Search</button></li>
                  </ul>
+            </div>
+
+            <div id="resultContainer">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Rate</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultTbody">
+
+                    </tbody>
+                    
+                </table>
             </div>
         </div>
 
 
 
         <!-- rates at http://api.fixer.io/latest -->
+        <!-- #include virtual="./footer.inc"-->
     </body>
+    
 </html>
 
 
