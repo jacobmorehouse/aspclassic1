@@ -1,7 +1,7 @@
 ﻿<%
     Function getCurrencies
         dim returnVar
-        dim currencyUrl : currencyUrl = "http://api.fixer.io/latest?base=USD" 'starting currency is USD
+        dim currencyUrl : currencyUrl = "http://api.fixer.io/latest?base=" & Session("basecurrency") 'starting currency is USD
         Set HttpReq = Server.CreateObject("MSXML2.ServerXMLHTTP")
         HttpReq.open "GET", currencyUrl, False
         HttpReq.send

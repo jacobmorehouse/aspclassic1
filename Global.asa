@@ -1,0 +1,22 @@
+﻿<script language="vbscript" runat="server">
+
+Sub Application_onStart
+
+End Sub
+    
+
+Sub Application_onEnd
+
+End Sub
+
+
+Sub Session_onStart
+    Session("basecurrency") = "USD"
+End Sub
+
+
+Sub Session_onEnd
+
+End Sub
+       
+</script>

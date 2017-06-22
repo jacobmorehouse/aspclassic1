@@ -4,29 +4,22 @@
 }
 
 header {
-    height: 100px;
-    
+    height: 100px;    
 }
-
 
 .rateListing {
     margin: 0 auto;
     width: 80%;
 }
 
-.buttons {
-    /*margin: 0 auto;*/
-    
-}
-
 .center-text {
     text-align: center;
 }
 
-/*
-.buttonMe {
-    background-color: #0094ff;
-    border-radius: 5px;
-    padding: 5px; 5px; 5px; 5px;
+.rateListing {
+    width:500px;
 }
-*/
+
+.navbuttons {
+    padding: 0 0 0 0;
+}
