@@ -1,8 +1,6 @@
 <% dim pageTitle
     pageTitle = "this is the title" %>
 
-<% dim pageTitle2: pageTitle2 = "this is the title2" %>
-
 
 <!DOCTYPE html>
 <html>
@@ -23,8 +21,9 @@
              <p class="center-text">Base Currency: <% =Session("basecurrency") %></p>
             <ul class="center-text navbuttons">
                 <li><button type="button" class="btn btn-default" id="listbutton">List</button></li>
-                <li><button type="button" class="btn btn-default" id="highlowbutton">High/Low</button></li>
-                <li><button type="button" class="btn btn-default" id="searchsutton">Search</button></li>
+                <li><button type="button" class="btn btn-default" id="sortalpha">Sort: Alpha</button></li>
+                <!--<li><button type="button" class="btn btn-default" id="sortrate">Sort: rate</button></li>-->
+                <li><button type="button" class="btn btn-default" id="clearbutton">Clear</button></li>
             </ul>
         </div>
 
